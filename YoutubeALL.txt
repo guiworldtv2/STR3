@@ -1,6 +1,205 @@
-https://www.youtube.com/c/ILoveYouVenice
-https://www.youtube.com/c/StGeorgeTower
-https://www.youtube.com/c/recordnews
-https://www.youtube.com/c/recordtvoficial
-https://www.youtube.com/c/rppnoticias
-https://www.youtube.com/c/sbtpara
+~~ DO NOT EDIT THE FIRST 2 LINES
+~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
+
+
+Cámara de Diputados Mexicano | MÉXICO | https://yt3.ggpht.com/58G5JcOBaDEvphcPUZSeJCbWYGu7R7UEUj010hkkNL2MpafXx7_NiZI44dc3mGhP3Wk2Is3yAw=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCkLEVSsqQSCZ8pnyiLyGn3w/live
+
+TV Justiça | Política | https://yt3.ggpht.com/LbNi3S5EEtziLc6BuAzxJtbeOnEYGmjVLiwr6PR1CQmSEkSIcOvJRlWuKnmJcE_aiXhTB76IsQ=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC0qlZ5jxxueKNzUERcrllNw/live
+
+Superior Tribunal Federal | Política | https://yt3.ggpht.com/e4qBZ8GZ6k1LHVJUaWhmTa_IIhCgCk42cENaVrECC-jhw7gD9glyyhvkudyBHHRvZ1n61wHgFYo=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/STF_oficial/live
+
+Câmara dos Deputados BR | Política | https://yt3.ggpht.com/ytc/AKedOLSJnc5MKamnLLR6WpiejIu7NjCtqaySjZpO4Ru8Mg=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC-ZkSRh-7UEuwXJQ9UMCFJA/live
+
+TV ALEGO | Política | https://yt3.ggpht.com/ytc/AKedOLTv2bstbZp1YjIcL4_4p4P4pM9ePDi7C_Foedk4_Q=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC62tBsh6awMUD5cyBrjvr8Q/live
+
+ASSEMBLEIA LEGISLATIVA TOCANTINS | Política | https://yt3.ggpht.com/S2aizddvZQypyQ5Gu77HhSDsWZCTQl1NeEqRgztbZ0R8yliUjQrQoMa6cMsjMMoREyB6pfUY=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/TvALTO/live
+
+TV ALESP | Política | https://yt3.ggpht.com/H48w_GCxfG7WfXLSxjVihHktZtBRBzUWsqzbjK3FoxdRY1NfBhZzLiJNBUPzkZOAf9FmhQGOmpY=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/AlespOficial/live
+
+TV ALERJ | Política | https://yt3.ggpht.com/ytc/AKedOLRr_SDZbbCwuZQNDPbdYuLWFz92sp0R5wtPIzAJ7Q=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/TVALERJCanal/live
+
+Assembleia Legislativa de Minas Gerais | Política | https://yt3.ggpht.com/ytc/AKedOLT_QJj7NY8rFna4niQT73udla5RXNQzIQY22RJAVA=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCLyH0n2yMR9mmkYvXkwJTTw/live
+
+TV CÂMARA SÃO PAULO | Política | https://yt3.ggpht.com/ytc/AKedOLSQDFSq_97Nv-1I_w6w6yDkRecEUCxXROAkkEAnmQ=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCP8XlGjPSGj8JkuZ8hgDAJw/live
+
+TV Câmara Piracicaba - SP | Política | https://yt3.ggpht.com/ytc/AKedOLRdCZDGF0H_TXUa1-lB9LJhYCYCeuFA9FjHqbPK=s48-c-k-c0x00ffffff-no-rj
+https://www.youtube.com/channel/UC4PVkR97DJGTcx5MrOObMKA/live
+
+TV Câmara Sorocaba - SP | Política | https://yt3.ggpht.com/vL_O805dD7_050knFcdr2g24YatLrC9Zb_vtx_6-pbFaK5rUF4pAW-KCWfoUllwdSNUgw4tD=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCWQR_GgpIhrfoG1vikt94bA/live
+
+TV Câmara São José dos Campos - SP | Política | https://yt3.ggpht.com/ytc/AKedOLTcrhJjgaaY_G0dpjV2TbEEZtonePrHDrLIktSURQ=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC88FZ18m6zMXjY-nmquDVkg/live
+
+TV Câmara Bauru - SP | Política | https://yt3.ggpht.com/ytc/AKedOLRHD4B8wzkZAgktC_g-pOUJyZ08GYg2HQaPtWjn=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCKq5s8lpn8WTn54mTeb6hqw/live
+
+TV Câmara Jahu  SP | Política | https://yt3.ggpht.com/ytc/AKedOLSYBARpXKU5j0lv0ffeFg1XWSoqa3COEuo_wK-LrQ=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC2n7mUPDQ_9lz2bSyxMzLOg/live
+
+TV Câmara Taubaté  SP | Política | https://yt3.ggpht.com/ytc/AKedOLTw97NDbBFtHWHkdWpAq3xqH6o1Oc_57NAun3ZUQQ=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCjFPZQ4Tl_u9N9ptFSYNI_A/live
+
+TV Câmara Marília  SP | Política | https://yt3.ggpht.com/isrGRxv_8H3YXHN6Hm5jFJZfA541oXgd8ZRSabwomSPDUl9Sd1n98xl66eKIWuN4g_rsq9yoAV8=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCaV6HGTJLStG0cL_mv1R5HA/live
+
+TV CÂMARA - RJ | Política | https://yt3.ggpht.com/ytc/AKedOLSF8xb9F4QWvQp-RonaF_NvWO5j2dp19XVHYacA=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCmkgkpuRbUGzwLSpnV2nevQ/live
+
+TV Câmara - Porto Alegre | Política | https://yt3.ggpht.com/ytc/AKedOLRM6K3DDIjBQo3yvGOQfvxT_c55xBattOSDi30Wig=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC-0IsdHsbWQcZolu66jkQZQ/live
+
+
+TV Câmara vereadores - Itajai | Política | https://yt3.ggpht.com/ytc/AKedOLQ7m5p90VbMzfOICr4aLh3ETuH4DO8_ANeVRckp=s48-c-k-c0x00ffffff-no-rj
+https://www.youtube.com/c/camaraitajai/live
+
+Câmara Municipal de Juiz de Fora | Política | https://yt3.ggpht.com/TowJlw04xxPHPaCC3mW6vUmUJYaJ1g7spS731jM27XZ2IDN0ugI6-A5M_vi7KT7y9F8QsNfYRg=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCftDRiBaeL_-9xxLpBN4D4w/live
+
+Cámara de Representantes - República Oriental del Uruguay| Política | https://yt3.ggpht.com/ytc/AKedOLQr-VgeY5P6b4DwCskcHPIqq8X3TulI3rp2phT4=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/C%C3%A1maradeRepresentantesRep%C3%BAblicaOrientaldelUruguay/live
+
+Live Kyiv Ukraine  | CAMERAS AO VIVO | https://yt3.ggpht.com/D1bW3c7hxe9KVXWOzQ0asiHh7WNxh4IeIDRBsRS-dpmdZcuyzstFY_o397Fg4M7UtUaDZ6msYQ4=s48-c-k-c0x00ffffff-no-rj | 
+https://www.youtube.com/watch?v=2cyQPN5xQtU/Live
+
+Kyiv Live 1 | CAMERAS AO VIVO | https://yt3.ggpht.com/pqk2LKOHYrbPE7jSwUF1JZSPH0e33B3DnG--76LYXiXf9GmXmrjUX1lVD7hUoDXzubtKZmMu=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/TVLTrzcianka1/live
+
+Kyiv Live 2 | CAMERAS AO VIVO | https://yt3.ggpht.com/y_ATosVnO7IbONIKNa_E8jhFvweFhkET_FcDafwHFmzCP_fBjmqK7YuCfLEmUunqjv8KKiPQb4c=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCwb_CWK3-5PU7aoPz7A2UoA/live
+
+Kyiv Live 3 | CAMERAS AO VIVO | https://yt3.ggpht.com/g652TMa95UfO2ktdGUfMgODLI_iLdglgcsEwaq1ZRnbcPCun5xX6AkKXzWgjIpHdQYHoMvBxwAE=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCJqILop8glYhyfPjBpxiyLw/live
+
+Kyiv Live 4 | CAMERAS AO VIVO | https://yt3.ggpht.com/sYAS_EaElf96ZnUmbmNKOJ6zfguGr8Zd0CEo5EJW_gUTTN56LfE0deWX-zmCjHH1C_CbXnXezA=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/DDCyprus1Click/live
+
+Kyiv Live 5 | CAMERAS AO VIVO | https://yt3.ggpht.com/ytc/AKedOLTqnYBcyGChvrRpIBl_16yTFTP6e2NLRCODltGXcA=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/TyronFurryPawsGoodVibes/live
+
+Rádio Bandeirantes - RÁDIO |  | https://yt3.ggpht.com/itHrKe7oMy9mk8KQzuwCws30FkA3fIY7dzkCw4pRDlgmoOZ5_pO3m1MK1J5WImIFgIzVW6cV=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCF453hXTROcm9CfCERYUjtQ/live
+
+Rádio BandNews FM - RÁDIO |  | https://yt3.ggpht.com/E5VoNvpEiNchhIn7tjfhv4_NKAJUXjKCl2C1dus7_tBPZnJbA9oDDm0_7TxZ_65WY2e-XYM-eA=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCWijW6tW0iI5ghsAbWDFtTg/live
+
+Rádio Bandeirantes Goiânia - RÁDIO  |  | https://yt3.ggpht.com/ytc/AKedOLQJv1ORhWz7CDxmoU3ud9wF5QjLUzxfbnE5K1TdOA=s48-c-k-c0x00ffffff-no-rj
+https://www.youtube.com/channel/UCAYc5_LHIhif2gHGAWbLpgg/live
+
+RÁDIO BANDEIRANTES CAMPINAS - RÁDIO  |  | https://yt3.ggpht.com/keQeHuylNMWQEi8BR7SeDRRmHXe43Lt1xzgRMOovGuQJ5TALUlcICwqhoWTcY1-uwCHBHr17Mfo=s48-c-k-c0x00ffffff-no-rj
+https://www.youtube.com/channel/UCVFt9gcXngKUOvMd-mBVaVA/live
+
+ZADRUGA LIVE 1 | REALITY SHOW'S LIVE | https://yt3.ggpht.com/YvplJLRNkg33OVWnwrEOCWucJMN35-iZobb3Xu9_iW1O_XD19GjFhdp5eFxgN5LMshQbx-8AVtw=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCvSS_d2DKL1TA4HO_xjAzvA/live
+
+ZADRUGA LIVE 2 | REALITY SHOW'S LIVE |https://yt3.ggpht.com/EhtLmsVQ0qdfuSmusvTjTDAmeF7kIbDtDSKwJHyoFYzzcbheBRvCFajUn-z1QDzjU6IfJfuYMg=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCRA11PVMi-PeCqLfpkcOTpA/live
+
+Tribunal do Júri TJPR | TRIBUNAL | https://yt3.ggpht.com/ytc/AKedOLRolRG7rbGD-InAXZfZ0w10b1WWFEYrEDixpqvF=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC4KTdT_aDrJiNqZLCKDeMhg/live
+
+Clark County District Court WA | TRIBUNAL | https://yt3.ggpht.com/ytc/AKedOLQwZDcdgcvxRxfBSKkZMcrNTJt0Vbdq4rggWCY4qQ=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC8qHq7_NtPYt3_ZiBMlUFyw/live
+
+Department 1 Stanislaus County Superior Court | TRIBUNAL | https://yt3.ggpht.com/ytc/AKedOLR54RjsYCuCRs7gepO_euSI_pBdZ2-smQHn14JC=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC_44uMGNe78F-zObmSx_Jxw/live
+
+Warren County Common Pleas Court - Courtroom 3 | TRIBUNAL | https://yt3.ggpht.com/ytc/AKedOLQOKr6I8HQ2YBafcUCEcTw5CC8fenKiz8RdY58Z=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCDNARovyPvfzd7LAnu9hqpQ/live
+
+Warren County Common Pleas Court - Courtroom 4 | TRIBUNAL | https://yt3.ggpht.com/ytc/AKedOLQrNrFDRk9d8jFBk1r3ot5FUi37gU8zIanfVr7D=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCRkLhrgl6oXU_-wKuA9Z_tQ/live
+
+Department 3 Stanislaus County Superior Court | TRIBUNAL | https://yt3.ggpht.com/ytc/AKedOLSjnzLeyC5qu5Kt9X7nXmQ4PU633p7DEC-5=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCTDKnFo55u6cERkvTb3qG9w/live
+
+Thurston County District Court 2 | TRIBUNAL | https://yt3.ggpht.com/ytc/AKedOLS80Hq5HmUK5eZ7bipZJ2KJiAak4SJyrIKqa6Wy=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCw2puvb2zeZC9JmV6dBRYFw/live
+
+Thurston County District Court 2 | TRIBUNAL | https://yt3.ggpht.com/ytc/AKedOLS80Hq5HmUK5eZ7bipZJ2KJiAak4SJyrIKqa6Wy=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCw2puvb2zeZC9JmV6dBRYFw/live
+
+Cook County Court Probable Cause Hearings | TRIBUNAL | https://yt3.ggpht.com/ytc/AKedOLT2ieGCY3eAqLL16niUCzQ6IeGHa6ZavwqQcN_h=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCjHq2CTWrXSQEOvJgKhqDzg/live
+
+Bethel Superior Court Judge Haas | TRIBUNAL | https://yt3.ggpht.com/ytc/AKedOLTviJXB2T4S27wQb2-s2-7CzCGQrpiKAsNMzdaa=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCw_9D3zT6MtnS0o-M2Q3wKQ/live
+
+KBS WORLD TV | CORÉIA | https://yt3.ggpht.com/ytc/AKedOLQdqGXFIviSTIcvbB4XGkRQy28y1nEB5nnzFgjuLmA=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC5BMQOsAB8hKUyHu9KI6yig/live
+
+KBS WORLD Vietnamese | CORÉIA |  https://yt3.ggpht.com/nNYRlnB8m1KMeMuzxJgFU82gYGJPR2_Hjv99WDJwHE7-VAdZj7lQwRLz9vip0mhGNCW3mFbSTg=s88-c-k-c0x00ffffff-no-rj
+https://www.youtube.com/channel/UCWw_gejTX29Yn89LLpcINZQ/live
+
+Livestream Events | UCRÂNIA | https://i.imgur.com/R6GZk62.jpg |
+https://www.youtube.com/channel/UCrjyygMS1KNuL10AT5AIcBQ/live
+
+24 Канал онлайн | UCRÂNIA | https://i.imgur.com/Ki6gLmH.png |
+https://www.youtube.com/channel/UCja992VI_u2e52c9FHQXw5A/live
+
+Espreso.TV | UCRÂNIA | https://i.imgur.com/Fn8ji4H.png |
+https://www.youtube.com/channel/UCMEiyV8N2J93GdPNltPYM6w/live
+
+RECORD TOCANTINS | TV ABERTA | https://yt3.ggpht.com/gU-OP3GGNeNw_3nCVm2aaUfOPT7LXFbAaWnsw1d10IEv-3OmXIMLTdfeg2alHVJN2OvZRLNu=s176-c-k-c0x00ffffff-no-rj-mo |
+https://www.youtube.com/user/lacerdapaz/live
+
+SIC TV VILHENA | TV ABERTA | https://yt3.ggpht.com/ytc/AKedOLSMTQHnUtfSYlv0EAwj3ATjIFM2EsKMErpxXF9c=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCvlZRjuviUF8Nh1B93-hq-w/live
+
+TV GUARARAPES RECORDTV | TV ABERTA | https://yt3.ggpht.com/QS2NqG54jNTin4iUAROHTKu-EIThOwNhJ1m8Cu0mDjFMMLLAZKXGcX6FDA1qn_oqrDjZPBOqyw=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCOFMoDHG-vKXs-f5vcG7JaQ/live
+
+TV MINHA CIDADE | TV ABERTA | https://yt3.ggpht.com/xItGkAUFvmTzmbD6AfbE-u-ISA6jBA5gI8NNnjb7nUBZxBBXHMWkOg8LZoiPACRMAizS7lWsqw=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UC01mwsfADk8SOX_k1OA58MA/live
+
+TV AMPLITUDE JUINA | TV ABERTA | https://yt3.ggpht.com/ytc/AKedOLTIZDP4nqs_wMqEuKxwml_KzSdaOHyGn3B5PK6KiA=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/TVAMPLITUDEJU%C3%8DNA/live
+
+TV AMPLITUDE JUARA | TV ABERTA | https://yt3.ggpht.com/ytc/AKedOLT1nsetZiOPQs7hDsTllqaKyqMZLcPHrng9Adqe0g=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCzHMWzIFlR5xoHpwtiidCfQ/live
+
+TV AMPLITUDE GUARANTÃ | TV ABERTA | https://yt3.ggpht.com/ytc/AKedOLRb3ok2zVJtwLOd1nuiWYnDjfeZKC6a-qdmlktW=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCBqFc8V5QT1KuqAbrw9KJCw/live
+
+TV CONQUISTA | TV ABERTA | https://yt3.ggpht.com/ytc/AKedOLTcY3PmIcSpW_MbYWEyuFsqSo_M9iW6wYypW5d5xg=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/user/tvconquista/live
+
+TV TROPICAL RN | TV ABERTA | https://yt3.ggpht.com/HPm1ZLcaOUXXHTfWiGjvyiWdLbXaEYCASiBQ_j9YwUJGMYvwvUja7EFFY6iXYaV4Z1HjFw4gbm0=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/TVTropicalRN/live
+
+BALANÇO GERAL MARINGÁ | TV ABERTA | https://yt3.ggpht.com/ytc/AKedOLTU9rVkRiZiIzc5T4-WQeg1A63ABmXB1M4SfUrP=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/Balan%C3%A7oGeralMaring%C3%A1/live
+
+BALANÇO GERAL LONDRINA | TV ABERTA | https://yt3.ggpht.com/ytc/AKedOLQ0W_WsprsS7vyYRSGN8dxb7zPPArbJ0FsNLevM=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/Balan%C3%A7oGeralLondrina/live
+
+BALANÇO GERAL CURITIBA | TV ABERTA | https://yt3.ggpht.com/ytc/AKedOLTeRZH9GnHgSsHi7zTRX-lwwbgpUHyhJfaAkH50=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/Balan%C3%A7oGeralCuritibaPR/live
+
+BALANÇO GERAL OESTE | TV ABERTA | https://yt3.ggpht.com/ytc/AKedOLSIXRCAFWjFY5DkQqIuZsJGapLbhViuBBfproZ0=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/Balan%C3%A7oGeralOeste/live
+
+VTV SBT | TV ABERTA | https://yt3.ggpht.com/ytc/AKedOLRoVt3xkM8mFxzSN2rjPFT78heJ3dMhpjxdH_7hhA=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/user/vtvoficial/live
+
+SBT RS | TV ABERTA | https://yt3.ggpht.com/YpwopYpJzCAW8V62GFJmtX2FjwCG1eOqgZHrw0gq9c3h9IHq6VvvOHL20-9zH72FnfM-avRkDUI=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/sbtrs/live
+
+SBT RIO | TV ABERTA | https://yt3.ggpht.com/wlK3uJ7NhJa2ictcPGsC7_Rz1xt_wFdTNNh52XIydxP-aIyypR9W1UVLpXXkt7c3DZr7h8R5WQ=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/SBTRJ/live
+
+SBT PARÁ | TV ABERTA | https://yt3.ggpht.com/spZJJ4LHTHT_gY_vtMPdKAOcAJhJc8fz1bQ2vfbyftYXeQY9oBNvd9y1filQioyIG5Ltgd9WfA=s88-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/c/sbtpara/live
+
+SBT BRASILIA | TV ABERTA | https://yt3.ggpht.com/_sYQQeIkgJkOvJigYDowhk894DS6mcEuNra_HO_LF5y90NizxeL0O7FyChl8Qh7k9oFR6r8KHw=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/channel/UCOZQxZYlSjxWQisskqzbtjA/live
