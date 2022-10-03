@@ -6,7 +6,7 @@ import requests
 import shutil
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-channel_no = 10
+channel_no = 9
 m3u = None
 def get_live_info(channel_id):
     try:
@@ -72,7 +72,7 @@ def generate_youtube_tv():
                         # Just a video
                         video = result
                 video_url = video['url']
-                canalnome = video['channel']
+                canalnome = video['description']
                 
 
                 channel_no += 1
