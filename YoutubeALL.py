@@ -6,7 +6,7 @@ import requests
 import shutil
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-channel_no = 10
+channel_no = 8
 m3u = None
 def get_live_info(channel_id):
     try:
@@ -75,7 +75,7 @@ def generate_youtube_tv():
                 canalnome = video['channel']
                 
 
-                channel_no += 5
+                channel_no += 1
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
                 playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-base=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{canalnome} - {channel.get('title')}\n"
                 write_to_playlist(playlistInfo)
