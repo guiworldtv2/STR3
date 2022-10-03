@@ -6,65 +6,13 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"
 
-#EXTINF:-1 tvg-chno="10" tvg-id="Inscreva-se no nosso canal: http://www.youtube.com/c/recordnews
-•
-Instagram, Twitter, Facebook e TikTok: @recordnews
-•
-Mande sua mensagem para o nosso WhatsApp: (11) 3300-5555" tvg-base="https://www.youtube.com/c/recordnews" tvg-name="10-recordnews" tvg-logo="https://i.ytimg.com/vi/0MPub88Hs2U/maxresdefault_live.jpg" group-title="YOUTUBE",Inscreva-se no nosso canal: http://www.youtube.com/c/recordnews
-•
-Instagram, Twitter, Facebook e TikTok: @recordnews
-•
-Mande sua mensagem para o nosso WhatsApp: (11) 3300-5555 - AO VIVO: Central da Apuração - Eleições 2022 - TEMPO REAL
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1664785837/ei/TUk6Y6LRBZXyhgbJv4q4Aw/ip/20.110.254.215/id/0MPub88Hs2U.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr2---sn-p5qddn76.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/kd/mm/44/mn/sn-p5qddn76/ms/lva/mv/u/mvi/2/pl/19/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1664762489/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhANxpbE7D0A8VvRuMYate7nNtW_2wyFiGcdg2vjkGPbJTAiAzV-o-IDoMYTVeYfuCnFt7BAlh3EYTP8Qd2Uq0tCRXhg%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRgIhALu0daMkf5eTcyuejtGHLfjIFpLylKW1dglLlFLPPxYaAiEAxg7mBNncp-6USDNuV5hGyQiUlYQuFmEjLiP0iNg8bUE%3D/playlist/index.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Estás viendo la señal en directo de T13, con las noticias más relevantes y en vivo de Chile y el mundo. Todas nuestras entrevistas, notas diarias y reportajes las encuentras aquí mismo en nuestro perfil.
-
-Programación T13 EN VIVO (CLT / UTC -4) de lunes a viernes:
-06:30 AM - 07:00 AM = 3X3
-07:00 AM - 08:00 AM = T13 AM
-08:00 AM - 09:30 AM = MESA CENTRAL (TELE13 RADIO)
-09:30 AM - 10:00 AM = MERCADO GLOBAL (TELE13 RADIO)
-10:00 AM - 11:00 AM = T13 DIGITAL
-11:30 AM - 12:00 PM = SEMANA POLÍTICA (lunes) / EN FOCO (miércoles) / PRIMERA FILA (viernes)
-01:00 PM - 02:30 PM = T13 TARDE
-05:00 PM 05:30 PM = MICRÓFONO ABIERTO
-09:00 PM - 10:30 PM = T13 CENTRAL
-01:00 AM - 01:30 AM = T13 NOCHE
-
-Más informaciones en » http://T13.cl
-
-Síguenos en nuestras redes sociales:
-
-Twitter https://twitter.com/t13
-Instagram https://www.instagram.com/teletrece/
-Telegram http://t.me/teletrece
-Facebook https://www.facebook.com/pg/teletrece
-Spotify https://spoti.fi/3anZKVN
-
- #LIVE #ENDIRECTO" tvg-base="https://www.youtube.com/c/tele13" tvg-name="11-tele13" tvg-logo="https://i.ytimg.com/vi/Ove87nZ_1D4/maxresdefault_live.jpg" group-title="YOUTUBE",Estás viendo la señal en directo de T13, con las noticias más relevantes y en vivo de Chile y el mundo. Todas nuestras entrevistas, notas diarias y reportajes las encuentras aquí mismo en nuestro perfil.
-
-Programación T13 EN VIVO (CLT / UTC -4) de lunes a viernes:
-06:30 AM - 07:00 AM = 3X3
-07:00 AM - 08:00 AM = T13 AM
-08:00 AM - 09:30 AM = MESA CENTRAL (TELE13 RADIO)
-09:30 AM - 10:00 AM = MERCADO GLOBAL (TELE13 RADIO)
-10:00 AM - 11:00 AM = T13 DIGITAL
-11:30 AM - 12:00 PM = SEMANA POLÍTICA (lunes) / EN FOCO (miércoles) / PRIMERA FILA (viernes)
-01:00 PM - 02:30 PM = T13 TARDE
-05:00 PM 05:30 PM = MICRÓFONO ABIERTO
-09:00 PM - 10:30 PM = T13 CENTRAL
-01:00 AM - 01:30 AM = T13 NOCHE
-
-Más informaciones en » http://T13.cl
-
-Síguenos en nuestras redes sociales:
-
-Twitter https://twitter.com/t13
-Instagram https://www.instagram.com/teletrece/
-Telegram http://t.me/teletrece
-Facebook https://www.facebook.com/pg/teletrece
-Spotify https://spoti.fi/3anZKVN
-
- #LIVE #ENDIRECTO - T13 EN VIVO | Noticias de Chile y el Mundo
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1664785884/ei/fEk6Y5ejC5LJgwPZrojIBA/ip/20.110.254.215/id/Ove87nZ_1D4.2/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr4---sn-p5qlsndk.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/kG/mm/44/mn/sn-p5qlsndk/ms/lva/mv/u/mvi/4/pl/19/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1664762489/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhAKT3zjfQLvUuZfgiNrEzJYSXZOIV67ctVJnomcDIc3S8AiBIM7v5YzMZr9K604FFA6KKDpz-_RDoaAvOSb-4InQUJw%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgSbk19ruY4cfqapNqVYYu8I8dmWz7uP5KsWFJrDMqYNgCIQCvdn2cxlY9A8dRtL0GmaJ18K8uQHZFqYjRsmqoksvR9g%3D%3D/playlist/index.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="Acompanhe com a Rádio Senado a apuração dos votos do 1º turno das Eleições." tvg-base="https://www.youtube.com/c/tvsenado" tvg-name="12-tvsenado" tvg-logo="https://i.ytimg.com/vi/mz9rp1zztzk/hqdefault_live.jpg" group-title="YOUTUBE",Acompanhe com a Rádio Senado a apuração dos votos do 1º turno das Eleições. - Rádio Senado nas Eleições 2022
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1664785888/ei/gEk6Y-LDHeSK_9EP7LmSOA/ip/20.110.254.215/id/mz9rp1zztzk.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr3---sn-p5qddn7r.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/4K/mm/44/mn/sn-p5qddn7r/ms/lva/mv/u/mvi/3/pl/19/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1664762489/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIgVsk9qO8He1o4aKLBWZdU4HJ-6g1XZ5Gefoq0tCmaalsCIQDZ7eGR6VIpd8vhp3WkP6ufPDE7r2OMVKU7kU4kuLVxWg%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhANi5jWNiSyzz4p2KDTdtyk_DX0_QcZ03xJxhx_sFFS51AiBwVTUg7P0l8jlI0G06oFdqxbX6czn7WLxQBI5ZuuapgA%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="St. George Tower" tvg-base="https://www.youtube.com/c/StGeorgeTower" tvg-name="10-StGeorgeTower" tvg-logo="https://i.ytimg.com/vi/Vj0XKu6AoOw/maxresdefault_live.jpg" group-title="YOUTUBE",St. George Tower - Live NYC Lower Manhattan & New York Harbor Cam
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1664786139/ei/e0o6Y9KfHOKulu8PiOy1iAs/ip/157.55.190.126/id/Vj0XKu6AoOw.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr3---sn-q4flrnle.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/266250/mh/gT/mm/44/mn/sn-q4flrnle/ms/lva/mv/m/mvi/3/pl/20/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1664764146/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhANSdSPTn0Bn8KnNhvtoIUTU4Ctp3WFsdcizqQRRfMbT8AiBcoJyabLDZ3A0fAYtN9WD0au2H51yAqU0i960WoE_iEw%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgG-LVovtGBEVOGn6nbs7Nx7rcin2Lzg23Bv8e7NF-pTUCIQD_EANNOWiJtbuvE8pExegYLjCgl-LjX2Fzpy-lHJvZug%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="O TEMPO" tvg-base="https://www.youtube.com/c/otempo" tvg-name="11-otempo" tvg-logo="https://i.ytimg.com/vi/Pqi3vAbMO_E/hqdefault_live.jpg" group-title="YOUTUBE",O TEMPO - SUPER APURAÇÃO - Todas as notícias sobre a reta final do primeiro turno
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1664786151/ei/h0o6Y4HnHqa5ir4P9NqdoAQ/ip/157.55.190.126/id/Pqi3vAbMO_E.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr2---sn-q4flrnss.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/36250/mh/h4/mm/44/mn/sn-q4flrnss/ms/lva/mv/m/mvi/2/pl/20/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1664764146/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRgIhAKyhW3k_WP6kutvz4ciDMHGToIpw2f5vs_xBSzpDtEMFAiEA51hErxsLfhyCRHJlhYVLhUnW130MyJUTKmALV0Iz6YQ%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgYUJwbgGG7Vz6lau9vWhG8GoeVH-xFsWSfcSg1gG3WGwCIQDxxgueL46jvtiYTcl0dZUX_XmiNopwrieFRq8nE5gHtw%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="Record News" tvg-base="https://www.youtube.com/c/recordnews" tvg-name="12-recordnews" tvg-logo="https://i.ytimg.com/vi/0MPub88Hs2U/maxresdefault_live.jpg" group-title="YOUTUBE",Record News - AO VIVO: Central da Apuração - Eleições 2022 - TEMPO REAL
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1664786162/ei/kko6Y8ixBcSS_tcPxb2zkAM/ip/157.55.190.126/id/0MPub88Hs2U.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr5---sn-q4fzen7l.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/266250/mh/kd/mm/44/mn/sn-q4fzen7l/ms/lva/mv/m/mvi/5/pl/20/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1664764146/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhAJ_G9zyHi27QYNsHpOem_NRZg5wjKK1L3YLIj-65OulOAiBISF-ocFTq2tBYMZ9_vSmPMspy00MTS89v3HwY3qvM-A%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRgIhAKipfRyjK_yTyhPd7CTn6veVT012jHKio_wl71oagNeNAiEAlnJTF4asKCBIoLseGqt_HwjrfThQ3fBYrJk64ExIA-M%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="13" tvg-id="T13" tvg-base="https://www.youtube.com/c/tele13" tvg-name="13-tele13" tvg-logo="https://i.ytimg.com/vi/Ove87nZ_1D4/maxresdefault_live.jpg" group-title="YOUTUBE",T13 - T13 EN VIVO | Noticias de Chile y el Mundo
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1664786203/ei/u0o6Y8KYFq-llu8PsJ-q-AE/ip/157.55.190.126/id/Ove87nZ_1D4.2/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr2---sn-q4flrn7r.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/kG/mm/44/mn/sn-q4flrn7r/ms/lva/mv/u/mvi/2/pl/20/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1664764054/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhAPNl0AE_JoYqJk9_iLNmWIlFKeeVcap3kb3sxAq6RYCmAiAW2ZM9eJyLoIYpaC5BlBzKNZczHXQED6Yyd_TasVz4sA%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAOICIP5cZGUMRGLPHTa6dTo0TMojqxyiRrF1_eAjWWKQAiBxbYOCEl70IPPGzEWj-kfqgxKgQgnkvd8I2JaRDHn7pA%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-chno="14" tvg-id="TV Senado" tvg-base="https://www.youtube.com/c/tvsenado" tvg-name="14-tvsenado" tvg-logo="https://i.ytimg.com/vi/mz9rp1zztzk/hqdefault_live.jpg" group-title="YOUTUBE",TV Senado - Rádio Senado nas Eleições 2022
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1664786208/ei/wEo6Y8OzF5nclu8PndW4sAY/ip/157.55.190.126/id/mz9rp1zztzk.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr3---sn-q4fl6n6s.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/36250/mh/4K/mm/44/mn/sn-q4fl6n6s/ms/lva/mv/m/mvi/3/pl/20/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1664764146/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIgSS7iphWF_dTgWBCWNYLwvdF0a8Wn-NQG_x7vVTw5OGoCIQCh7m7plLfHYaxtJXw_7bN6QCizm4byd9GvNzMtoDWrNA%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhALCKesyYSy3H7oksgVcoXqcPzBkZXaAWsPs2ZyDIcCi9AiAAqLasZ2QhdlGPXh6a3f2CCXKFnI0zwJMIXlYUZZ8bfQ%3D%3D/playlist/index.m3u8
