@@ -72,7 +72,7 @@ def generate_youtube_tv():
                         # Just a video
                         video = result
                 video_url = video['url']
-                canalnome = video['location']
+                canalnome = video['id']
                 
 
                 channel_no += 1
