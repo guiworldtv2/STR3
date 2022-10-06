@@ -6,7 +6,7 @@ import requests
 import shutil
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-channel_no = 9
+channel_no = 1
 m3u = None
 def get_live_info(channel_id):
     try:
