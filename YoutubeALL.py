@@ -8,6 +8,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 channel_no = 1
 m3u = None
+
 def get_live_info(channel_id):
     try:
         webpage = urlopen(f"{channel_id}/live").read()
@@ -39,7 +40,6 @@ banner = r'''
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"
 
 '''
-
 
 
 def generate_youtube_tv():
@@ -91,14 +91,13 @@ def generate_youtube_tv():
 def write_to_playlist(content):
     global m3u    
     m3u.write(content)
-    m3u.write("\n")
     
 
 def create_playlist():
     global m3u
     m3u = open("LISTA5YTALL.m3u", "w")
     m3u.write("#EXTM3U")
-
+    m3u.write("\n")
 
     
 def close_playlist():
