@@ -7,7 +7,6 @@ import shutil
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 channel_no = 1
-m3u = None
 
 def get_live_info(channel_id):
     try:
@@ -33,14 +32,11 @@ def get_live_info(channel_id):
                 return None
 
 banner = r'''
-
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENsiptv.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"
-
 '''
-
 
 def generate_youtube_tv():
     global channel_no
@@ -66,7 +62,7 @@ def generate_youtube_tv():
                     )
 
                     if 'entries' in result:
-                                                # Can be a playlist or a list of videos
+                        # Can be a playlist or a list of videos
                         video = result['entries'][-1]
                     else:
                         # Just a video
@@ -78,15 +74,11 @@ def generate_youtube_tv():
 
                 channel_no += 1
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-base=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{canalnome} - {channel.get('title')} - {viewrs}\n"
+                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-base=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{canalnome} - {channel.get('title')} - {viewrs}\n{video_url}\n"
                 write_to_playlist(playlistInfo)
-                write_to_playlist(video_url)
-                write_to_playlist("\n")
+                
             except Exception as e:
                 print(e)
-                        
-
-
 
 def write_to_playlist(content):
     global m3u    
@@ -101,4 +93,3 @@ def create_playlist():
 
 if __name__ == "__main__":
     create_playlist()
-
