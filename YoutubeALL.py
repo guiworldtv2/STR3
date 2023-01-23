@@ -66,7 +66,7 @@ def generate_youtube_tv():
                     )
 
                     if 'entries' in result:
-                        # Can be a playlist or a list of videos
+                                                # Can be a playlist or a list of videos
                         video = result['entries'][-1]
                     else:
                         # Just a video
@@ -95,32 +95,10 @@ def write_to_playlist(content):
 
 def create_playlist():
     global m3u
-    m3u = open("LISTA5YTALL.m3u", "w")
-    m3u.write("#EXTM3U")
-    m3u.write("\n")
+    with open("LISTA5YTALL.m3u", "w") as m3u:
+        m3u.write(banner)
+        generate_youtube_tv()
 
-    
-def close_playlist():
-    global m3u
-    m3u.close()
-def generate_youtube_PlayList():
+if __name__ == "__main__":
     create_playlist()
-        
-    m3u.write(banner)
-
-    generate_youtube_tv()
-    
-
-    
-    
-    
-
-
-    close_playlist()
-
-
-    
-if __name__ == '__main__':
-    generate_youtube_PlayList()   
- 
 
