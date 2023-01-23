@@ -91,6 +91,7 @@ def generate_youtube_tv():
 def write_to_playlist(content):
     global m3u    
     m3u.write(content)
+    m3u.write("\n")
     
 
 def create_playlist():
