@@ -88,38 +88,18 @@ def generate_youtube_tv():
 
 
 def write_to_playlist(content):
-    global m3u    
+    global m3u
     m3u.write(content)
     
 
 def create_playlist():
     global m3u
-    m3u = open("LISTA5YTALL.m3u", "w")
-    m3u.write("#EXTM3U")
-    m3u.write("\n")
+    with open("LISTA5YTALL.m3u", "w") as m3u:
+        m3u.write(banner)
+        generate_youtube_tv()
 
-    
-def close_playlist():
-    global m3u
-    m3u.close()
-def generate_youtube_PlayList():
+if __name__ == "__main__":
     create_playlist()
-        
-    m3u.write(banner)
 
-    generate_youtube_tv()
-    
-
-    
-    
-    
-
-
-    close_playlist()
-
-
-    
-if __name__ == '__main__':
-    generate_youtube_PlayList()   
  
 
