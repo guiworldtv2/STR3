@@ -80,23 +80,24 @@ def generate_youtube_tv():
                 canalnome = video['uploader']
                 viewrs = video['view_count']
                 
-
+                # Adiciona 1 ao número de canal atual
                 channel_no += 1
+                # Cria o nome do canal como "channel_no-nome do canal"
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
+                # Cria a linha de informações do canal para incluir no arquivo m3u
                 playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-base=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{canalnome} - {channel.get('title')} - {viewrs}\n"
+                # Escreve a linha de informações e a url do vídeo no arquivo m3u
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
             except Exception as e:
                 print(e)
                         
-
-
-
-
-
-
 def write_to_playlist(content):
+    """
+    Escreve o conteúdo especificado no arquivo m3u global.
+    :param content: Conteúdo a ser escrito no arquivo m3u.
+    """
     global m3u    
     m3u.write(content)
     if content.startswith("https://") and not content.endswith("\n"):
