@@ -33,7 +33,6 @@ def get_live_info(channel_id):
                 return None
 
 
-
 banner = r'''
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENsiptv.xml"
@@ -48,43 +47,32 @@ def generate_youtube_tv():
     }
     ydl = youtube_dl.YoutubeDL(ydl_opts)
 
-    with open('YoutubeALL.txt') as f:
-    lines = f.readlines()
-    for line in lines:
-        line = line.strip()
-        if line == "":
-            continue
-        channel = get_live_info(line)
-        if channel is None:
-            continue
-        try:
-            with ydl:
-                result = ydl.extract_info(
-                    f"{line}/live",
-                    download=False  # We just want to extract the info
-                )
-
-                if 'entries' in result:
-                    # Can be a playlist or a list of videos
-                    video = result['entries'][-1]
-                else:
-                    # Just a video
-                    video = result
-            video_url = video['url']
-            canalnome = video['uploader']
-            viewrs = video['view_count']
-
-            channel_no += 1
-            channel_name = f"{channel_no}-{line.split('/')[-1]}"
-            playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-base=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{canalnome} - {channel.get('title')} - {viewrs}\n"
-            write_to_playlist(playlistInfo)
-            write_to_playlist(video_url)
-            write_to_playlist("\n")
-            
-        except Exception as e:
+        with open('YoutubeALL.txt') as f:
+        lines = f.readlines()
+        for line in lines:
+            line = line.strip()
+            if line == "":
+                continue
+            channel = get_live_info(line)
+            if channel is None:
+                continue
             try:
-                streams = streamlink.streams(line)
-                video_url = streams["best"].url
+                with ydl:
+                    result = ydl.extract_info(
+                        f"{line}/live",
+                        download=False  # We just want to extract the info
+                    )
+
+                    if 'entries' in result:
+                        # Can be a playlist or a list of videos
+                        video = result['entries'][-1]
+                    else:
+                        # Just a video
+                        video = result
+                video_url = video['url']
+                canalnome = video['uploader']
+                viewrs = video['view_count']
+
                 channel_no += 1
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
                 playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-base=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{canalnome} - {channel.get('title')} - {viewrs}\n"
@@ -92,27 +80,44 @@ def generate_youtube_tv():
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
             except Exception as e:
-               
-
                 print(e)
-
                         
 
 
 
 def write_to_playlist(content):
-    global m3u
+    global m3u    
     m3u.write(content)
     
 
 def create_playlist():
     global m3u
-    with open("LISTA5YTALL.m3u", "w") as m3u:
-        m3u.write(banner)
-        generate_youtube_tv()
+    m3u = open("LISTA5YTALL.m3u", "w")
+    m3u.write("#EXTM3U")
+    m3u.write("\n")
 
-if __name__ == "__main__":
+    
+def close_playlist():
+    global m3u
+    m3u.close()
+def generate_youtube_PlayList():
     create_playlist()
+        
+    m3u.write(banner)
 
+    generate_youtube_tv()
+    
+
+    
+    
+    
+
+
+    close_playlist()
+
+
+    
+if __name__ == '__main__':
+    generate_youtube_PlayList()   
  
 
