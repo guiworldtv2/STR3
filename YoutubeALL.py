@@ -89,6 +89,13 @@ def generate_youtube_tv():
 def write_to_playlist(content):
     global m3u    
     m3u.write(content)
+    if content.startswith("#EXTINF") and not content.endswith("\n"):
+        m3u.write("\n")
+``
+
+def write_to_playlist(content):
+    global m3u    
+    m3u.write(content)
     
 
 def create_playlist():
