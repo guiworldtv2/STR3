@@ -1,14 +1,23 @@
 #! /usr/bin/python3
-
 from __future__ import unicode_literals
 import youtube_dl
 import requests
 import shutil
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+
+# channel_no é usado para manter o número atual do canal
 channel_no = 1
+
+# m3u é usado para armazenar o arquivo de saída m3u
 m3u = None
+
 def get_live_info(channel_id):
+    """
+    Obtém informações sobre a transmissão ao vivo do canal especificado.
+    :param channel_id: ID do canal no YouTube
+    :return: dicionário com informações sobre a transmissão ao vivo, ou None se não houver transmissão ao vivo
+    """
     try:
         webpage = urlopen(f"{channel_id}/live").read()
         soup = BeautifulSoup(webpage, 'html.parser')
@@ -32,12 +41,10 @@ def get_live_info(channel_id):
                 return None
 
 banner = r'''
-
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENsiptv.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"
-
 '''
 
 def generate_youtube_tv():
