@@ -47,7 +47,7 @@ def generate_youtube_tv():
     }
     ydl = youtube_dl.YoutubeDL(ydl_opts)
 
-        with open('YoutubeALL.txt') as f:
+    with open('YoutubeALL.txt') as f:
         lines = f.readlines()
         for line in lines:
             line = line.strip()
