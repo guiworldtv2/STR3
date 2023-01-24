@@ -37,12 +37,14 @@ jobs:
          
         
       - name: Instalando streamlink
+        run: |
+         pip install --user --upgrade streamlink
+         
+      - name: ativando o youtubeall
         run: |      
          run: python YoutubeALL.py
         
-      - name: Instalando streamlink
-        run: |
-         pip install streamlink
+
 
         
       - name: commit files
