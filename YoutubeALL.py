@@ -91,7 +91,7 @@ def write_to_playlist(content):
     m3u.write(content)
     if content.startswith("#EXTINF") and not content.endswith("\n"):
         m3u.write("\n")
-``
+
 
 def write_to_playlist(content):
     global m3u    
