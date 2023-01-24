@@ -5,6 +5,7 @@ import requests
 import shutil
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+import subprocess
 import streamlink
 
 channel_no = 1
@@ -76,6 +77,15 @@ def generate_youtube_tv():
                 channel_no += 1
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
                 playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-base=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{canalnome} - {channel.get('title')} - {viewrs}\n"
+                write_to_playlist(playlistInfo)
+                write_to_playlist(video_url)
+                write_to_playlist("\n")
+            except youtube_dl.utils.ExtractorError as e:
+                # Se ocorrer um erro no youtube-dl, use o streamlink para extrair as informações do link m3u8
+                video_url = subprocess.run(["streamlink", "--stream-url", line, "best"], capture_output=True).stdout.decode().strip()
+                channel_no += 1
+                channel_name = f"{channel_no}-{line.split('/')[-1]}"
+                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-name=\"{channel_name}\" group-title=\"YOUTUBE\",{channel_name}\n"
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
