@@ -1,44 +1,31 @@
-#! /usr/bin/python3
-from __future__ import unicode_literals
-import youtube_dl
-import requests
-import shutil
-from urllib.request import urlopen
+import subprocess
+import time
+import os
+from selenium import webdriver
 from bs4 import BeautifulSoup
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
+import yt_dlp
 
-# channel_no é usado para manter o número atual do canal
-channel_no = 1
 
-# m3u é usado para armazenar o arquivo de saída m3u
-m3u = None
+from pytube import YouTube
 
-def get_live_info(channel_id):
-    """
-    Obtém informações sobre a transmissão ao vivo do canal especificado.
-    :param channel_id: ID do canal no YouTube
-    :return: dicionário com informações sobre a transmissão ao vivo, ou None se não houver transmissão ao vivo
-    """
-    try:
-        webpage = urlopen(f"{channel_id}/live").read()
-        soup = BeautifulSoup(webpage, 'html.parser')
-        urlMeta = soup.find("meta", property="og:url")
-        if urlMeta is None:
-            return None
-        url = urlMeta.get("content")
-        if(url is None or url.find("/watch?v=") == -1):
-            return None
-        titleMeta = soup.find("meta", property="og:title")
-        imageMeta = soup.find("meta", property="og:image")
-        descriptionMeta = soup.find("meta", property="og:description")
-        return {
-            "url": url,
-            "title": titleMeta.get("content"),
-            "image": imageMeta.get("content"),
-            "description": descriptionMeta.get("content")
-        }
-    
-    except Exception as e:
-                return None
+# Configuring Chrome options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
+
+# Instanciando o driver do Chrome
+driver = webdriver.Chrome(options=chrome_options)
+
+# Ler os links do arquivo LINKSYOUTUBE.txt
+try:
+    with open('YOUTUBEALL.txt', 'r') as f:
+        links = [line.strip() for line in f.readlines()]
+except Exception as e:
+    print(f"Erro ao ler o arquivo LINKSYOUTUBE.txt: {e}")
+    links = []
+
 
 banner = r'''
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml"
@@ -47,90 +34,43 @@ banner = r'''
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"
 '''
 
-def generate_youtube_tv():
-    global channel_no
-    ydl_opts = {
-        'format': 'best',
-    }
-    ydl = youtube_dl.YoutubeDL(ydl_opts)
+# Instalando streamlink
 
-    with open('YoutubeALL.txt') as f:
-        lines = f.readlines()
-        for line in lines:
-            line = line.strip()
-            if line == "":
-                continue
-            channel = get_live_info(line)
-            if channel is None:
-                continue
+subprocess.run(['pip', 'install', 'pytube'])
+subprocess.run(['pip', 'install', '--upgrade', 'yt dlp'])
+
+time.sleep(5)
+from pytube import YouTube
+
+# Define as opções para o youtube-dl
+ydl_opts = {
+    'format': 'best',  # Obtém a melhor qualidade
+
+    'write_all_thumbnails': False,  # Não faz download das thumbnails
+    'skip_download': True,  # Não faz download do vídeo
+}
+
+# Get the playlist and write to file
+try:
+    with open('./LISTA5YTALL.m3u', 'w', encoding='utf-8') as f:
+        f.write("#EXTM3U\n")
+        f.write(banner)
+        for i, link in enumerate(links):
             try:
-                with ydl:
-                    result = ydl.extract_info(
-                        f"{line}/live",
-                        download=False  # We just want to extract the info
-                    )
-
-                    if 'entries' in result:
-                        # Can be a playlist or a list of videos
-                        video = result['entries'][-1]
-                    else:
-                        # Just a video
-                        video = result
-                video_url = video['url']
-                canalnome = video['uploader']
-                viewrs = video['view_count']
-                
-                # Adiciona 1 ao número de canal atual
-                channel_no += 1
-                # Cria o nome do canal como "channel_no-nome do canal"
-                channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                # Cria a linha de informações do canal para incluir no arquivo m3u
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{canalnome}\" tvg-base=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{canalnome} - {channel.get('title')} - {viewrs}\n"
-                # Escreve a linha de informações e a url do vídeo no arquivo m3u
-                write_to_playlist(playlistInfo)
-                write_to_playlist(video_url)
-                write_to_playlist("\n")
+                with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                    info = ydl.extract_info(link, download=False)
+                if 'url' not in info:
+                    print(f"Erro ao gravar informações do vídeo {link}: 'url'")
+                    continue
+                url = info['url']
+                thumbnail_url = info['thumbnail']
+                description = info.get('description', '')[:10]
+                title = info.get('title', '')
+                f.write(f"#EXTINF:-1 group-title=\"YOUTUBE\" tvg-logo=\"{thumbnail_url}\",{title} - {description}...\n")
+                f.write(f"{url}\n")
+                f.write("\n")
             except Exception as e:
-                print(e)
-                        
-def write_to_playlist(content):
-    """
-    Escreve o conteúdo especificado no arquivo m3u global.
-    :param content: Conteúdo a ser escrito no arquivo m3u.
-    """
-    global m3u    
-    m3u.write(content)
-    if content.startswith("https://") and not content.endswith("\n"):
-        m3u.write("\n")
-        
-def create_playlist():
-    global m3u
-    m3u = open("LISTA5YTALL.m3u", "w")
-    m3u.write("#EXTM3U")
-    m3u.write("\n")
-
-    
-def close_playlist():
-    global m3u
-    m3u.close()
-def generate_youtube_PlayList():
-    create_playlist()
-        
-    m3u.write(banner)
-
-    generate_youtube_tv()
-    
-
-    
-    
-    
-
-
-    close_playlist()
-
-
-    
-if __name__ == '__main__':
-    generate_youtube_PlayList()   
- 
-
+                print(f"Erro ao processar o link {link}: {e}")
+                continue
+except Exception as e:
+    print(f"Erro ao criar o arquivo .m3u8: {e}")
